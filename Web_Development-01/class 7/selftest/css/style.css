@@ -1,0 +1,93 @@
+body{
+    background-color: grey;
+}
+
+
+#menu{
+    color:red;
+}
+.box_one{
+    height: 200px;
+    width: 300px;
+    //background-color: red;
+    background: linear-gradient(to right, orange,red,yellow);
+}
+
+.box_two{
+    height: 200px;
+    width: 300px;
+    //background-color: red;
+    background: linear-gradient(to right, orange,red,yellow);
+    margin-left: 300px;
+}
+
+.box_three{
+    height: 200px;
+    width: 300px;
+    //background-color: red;
+    background: linear-gradient(to right, orange,red,yellow);
+    margin-left:600px;
+}
+
+.box_four{
+    height: 200px;
+    width: 300px;
+    //background-color: red;
+    background: linear-gradient(to right, orange,red,yellow);
+    margin-left: 900px;
+}
+
+.box_five{
+    height: 200px;
+    width: 300px;
+    //background-color: red;
+    background: linear-gradient(to right, orange,red,yellow);
+    margin-left: 600px;
+}
+
+.box_five{
+    height: 200px;
+    width: 300px;
+    //background-color: red;
+    background: linear-gradient(to right, orange,red,yellow);
+    margin-left: 600px;
+}
+
+.box_five{
+    height: 200px;
+    width: 300px;
+    //background-color: red;
+    background: linear-gradient(to right, orange,red,yellow);
+    margin-left: 600px;
+}
+
+.box_six{
+    height: 200px;
+    width: 300px;
+    //background-color: red;
+    background: linear-gradient(to right, orange,red,yellow);
+    margin-left: 300px;
+}
+
+.box_seven{
+    height: 200px;
+    width: 300px;
+    //background-color: red;
+    background: linear-gradient(to right, orange,red,yellow);
+}
+
+.box_eight{
+    height: 200px;
+    width: 300px;
+    //background-color: red;
+    background: linear-gradient(to right, orange,red,yellow);
+    margin-left: 1000px;
+}
+
+.box_nine{
+    height: 200px;
+    width: 300px;
+    //background-color: red;
+    background: linear-gradient(to right, orange,red,yellow);
+    margin-top :200px;
+}

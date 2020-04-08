@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+  </head>
+  <body>
+    <table border="1" width="980" height="1200" align="center">
+      <tr>
+        <td colspan="3" height="200">
+          <table border="1" width="980">
+            <tr>
+              <td height="200" width="250"></td>
+              <td></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3" height="50">
+          <table border="1" width="980">
+            <tr align="center">
+              <td height="50"><a href="index.html">Home</a></td>
+              <td><a href="about.html">About</a></td>
+              <td><a href="portfilio.html">Portfolio</a></td>
+              <td><a href="galary.html">Galary</a></td>
+              <td><a href="reg.html">Registration</a></td>
+              <td><a href="contact.html">Contact</a></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td height="600"></td>
+        <td width="680" valign="top" align="center">
+          <h3>Please give all the information properly !</h3>
+          <hr />
+          <form action="" method="post">
+            <fieldset>
+              <legend>Registration Form</legend>
+              <table>
+                <tr>
+                  <td>First Name :</td>
+                  <td>
+                    <input
+                      type="text"
+                      name="first_name"
+                      required
+                      placeholder="Enter your first name"
+                      maxlength="10"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Last Name :</td>
+                  <td>
+                    <input
+                      type="text"
+                      name="last_name"
+                      required
+                      placeholder="Enter your last name"
+                      maxlength="10"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Email Address :</td>
+                  <td>
+                    <input
+                      type="email"
+                      name="email_address"
+                      required
+                      placeholder="Enter your email address"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Password :</td>
+                  <td>
+                    <input
+                      type="password"
+                      name="password"
+                      required
+                      placeholder="Enter your password"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Address :</td>
+                  <td>
+                    <textarea name="address" cols="22" rows="4"></textarea>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Phone Number :</td>
+                  <td>
+                    <input
+                      type="number"
+                      name="phone_number"
+                      required
+                      placeholder="Enter your phone number"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Institute Name :</td>
+                  <td>
+                    <input
+                      type="text"
+                      name="institute_name"
+                      value="BASIS Intitute of Technology & Management (BITM)"
+                      size="40"
+                      readonly
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Date Of Birth :</td>
+                  <td>
+                    <input
+                      type="date"
+                      name="date_of_birth"
+                      required
+                      placeholder="Enter your Date of Birth"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Gender :</td>
+                  <td required>
+                    <input
+                      type="radio"
+                      name="gender"
+                      checked
+                      value="male"
+                    />Male
+                    <input type="radio" name="gender" value="female" />female
+                  </td>
+                </tr>
+                <tr>
+                  <td>District Name :</td>
+                  <td>
+                    <select name="" id="" required>
+                      <option> ---Select your district </option>
+                      <option value="Joypurhat">Joypurhat</option>
+                      <option value="Bogra">Bogra</option>
+                      <option value="Naogaon">Naogaon</option>
+                      <option value="Rangpur">Rangpur</option>
+                      <option value="Natore">Natore</option>
+                    </select>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Agree</td>
+                  <td><input type="checkbox" name="agree" value="agree" /></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>
+                    <input type="submit" name="btn" value="registration" />
+                  </td>
+                </tr>
+              </table>
+            </fieldset>
+          </form>
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td colspan="3" height="30"></td>
+      </tr>
+    </table>
+  </body>
+</html>
